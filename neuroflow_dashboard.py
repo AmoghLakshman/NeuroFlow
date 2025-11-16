@@ -261,7 +261,7 @@ if page == "🚀 The Bridge (Executive Summary)":
     st.markdown("<br>", unsafe_allow_html=True)
     
     # Key Findings
-    st.subheader("📋 Our 4 Key "Out-of-the-Box" Findings")
+    st.subheader("📋 Our 4 Key 'Out-of-the-Box' Findings")
     
     col1, col2 = st.columns(2)
     
