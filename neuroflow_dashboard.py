@@ -379,9 +379,10 @@ st.sidebar.markdown("""
 
 ### 👥 Team Members
 - Amogh Lakshman
-- [Team Member 2]
-- [Team Member 3]
-- [Team Member 4]
+- Nikita Agarwal
+- Mirudubashini KC
+- Mohammed Zaid Mansuri
+- Lavisha Pradhwani
 
 ### 🎯 Deliverables
 ✅ Classification (6 Models)  
