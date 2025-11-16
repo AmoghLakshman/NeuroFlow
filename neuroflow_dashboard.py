@@ -194,9 +194,10 @@ st.sidebar.markdown("""
 
 ### 👥 Team Members
 - Amogh Lakshman
-- [Team Member 2]
-- [Team Member 3]
-- [Team Member 4]
+- Nikita Agarwal
+- Mirudubashini K C
+- Lavisha Pradhwani
+- Mohammed Zaid Mansuri
 """)
 
 st.sidebar.markdown("---")
