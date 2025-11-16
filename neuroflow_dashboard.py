@@ -772,7 +772,7 @@ elif page == "🔬 The ML Lab (All Models)":
         """)
         
         # Styled dataframe
-        styled_task_c = df_task_c.style.format({'Coefficient': '{:.2f}'})            .background_gradient(cmap='RdYlGn', subset=['Coefficient'])
+        styled_task_c = df_task_c.style.background_gradient(cmap='viridis', subset=['Coefficient'])            .background_gradient(cmap='RdYlGn', subset=['Coefficient'])
         
         st.dataframe(styled_task_c, use_container_width=True)
         
