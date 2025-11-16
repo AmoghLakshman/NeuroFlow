@@ -566,7 +566,13 @@ formatter_dict = {
 }
 
 # Apply the specific formatter
-styled_df = df_task_b_personas.style.format(formatter_dict)\        .background_gradient(cmap='Blues', subset=['Willing_To_Pay'])        .background_gradient(cmap='Reds', subset=['Primary_Challenge_Severity'])        .background_gradient(cmap='Greens', subset=['Tech_Comfort_Level'])
+# We wrap the entire expression in parentheses () for clean, error-free line continuation.
+styled_df = (
+    df_task_b_personas.style.format(formatter_dict)
+    .background_gradient(cmap='Blues', subset=['Willing_To_Pay'])
+    .background_gradient(cmap='Reds', subset=['Primary_Challenge_Severity'])
+    .background_gradient(cmap='Greens', subset=['Tech_Comfort_Level'])
+)
     
     st.dataframe(styled_df, use_container_width=True)
     
